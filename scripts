@@ -1,1 +1,10 @@
+function toggleMenu() {
+  const menu = document.querySelector(".nav-links");
+  menu.style.display = menu.style.display === "flex" ? "none" : "flex";
+}
+
+document.querySelector("form").addEventListener("submit", (e) => {
+  e.preventDefault();
+  alert("Mensagem enviada com sucesso!");
+});
 
