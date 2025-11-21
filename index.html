@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONG Amigos dos Animais</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="hero-header">
+  <nav class="navbar">
+    <div class="logo">Amigos dos Animais</div>
+    <ul class="nav-links">
+      <li><a href="#home">Início</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#animais">Animais</a></li>
+      <li><a href="#doacoes">Doações</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+
+    <div class="mobile-btn" onclick="toggleMenu()">☰</div>
+  </nav>
+
+  <div id="home" class="hero">
+    <h1>Adote Amor. Transforme Vidas.</h1>
+    <p>Cuidamos, resgatamos e encontramos novos lares para animais abandonados.</p>
+    <a href="#animais" class="btn">Ver Animais</a>
+  </div>
+</header>
+
+<section id="sobre" class="section">
+  <h2 class="section-title">Sobre Nós</h2>
+  <p class="section-text">
+    Somos uma ONG dedicada ao resgate, cuidado e adoção responsável de cães e gatos.
+    Atuamos há mais de 10 anos salvando vidas, tratando animais feridos e encontrando lares amorosos.
+  </p>
+</section>
+
+<section id="animais" class="section">
+  <h2 class="section-title">Animais para Adoção</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <img src="https://placekitten.com/450/300" alt="Gato para adoção">
+      <h3>Mimi</h3>
+      <p>Gatinha doce, 2 anos, muito carinhosa e calma.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://placedog.net/450/300" alt="Cachorro para adoção">
+      <h3>Rex</h3>
+      <p>Vira-lata fiel, 3 anos, adora brincar e passear.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://placekitten.com/452/300" alt="Gato para adoção">
+      <h3>Bola de Neve</h3>
+      <p>Gatinho brincalhão, 1 ano, cheio de energia.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="doacoes" class="section dark">
+  <h2 class="section-title white">Como Ajudar</h2>
+  <p class="section-text white">
+    Sua doação mantém nossos resgates funcionando!  
+    Aceitamos ração, remédios, dinheiro e itens de higiene.
+  </p>
+  <a href="#" class="btn light">Quero Doar</a>
+</section>
+
+<section id="contato" class="section">
+  <h2 class="section-title">Contato</h2>
+
+  <form class="form">
+    <input type="text" placeholder="Seu nome" required>
+    <input type="email" placeholder="Seu email" required>
+    <textarea placeholder="Mensagem" required></textarea>
+    <button type="submit" class="btn">Enviar</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 ONG Amigos dos Animais — Todos os direitos reservados.</p>
+</footer>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>
